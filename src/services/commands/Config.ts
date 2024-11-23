@@ -237,12 +237,7 @@ export default {
           .setCustomId('list_users')
           .setLabel('Listar Usuários')
           .setStyle(ButtonStyle.Secondary)
-          .setDisabled(true),
-        new ButtonBuilder()
-          .setCustomId('upload_music')
-          .setLabel('Substituir Música')
-          .setStyle(ButtonStyle.Primary)
-          .setDisabled(true),
+          .setDisabled(true)
       );
 
       sentMessage.edit({ components: [disabledRow] });
