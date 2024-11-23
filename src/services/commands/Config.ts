@@ -88,7 +88,7 @@ export default {
     const embed = new EmbedBuilder()
       .setTitle('Configurações')
       .setDescription(
-        'Clique nos botões abaixo para gerenciar usuários ou substituir arquivos de mídia:'
+        'Clique nos botões abaixo para gerenciar usuários:'
       )
       .setColor('#0099ff');
 
