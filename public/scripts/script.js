@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch(`http://localhost:3000/api/profiles`).then(res => res.json().then(json => {
+  fetch(`/api/profiles`).then(res => res.json().then(json => {
     json.forEach((user, index) => {
       const userLink = `https://discord.com/users/${user.user.id}/`;
       const profile = createprofile(index, userLink);
